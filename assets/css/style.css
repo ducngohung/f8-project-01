@@ -68,6 +68,8 @@ a {
   display: flex;
   background: #e6f0ff;
   position: relative;
+  align-items: center;
+  /* justify-content: center; */
   height: calc(100vh - 96px);
 }
 
