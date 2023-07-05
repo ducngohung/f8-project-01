@@ -50,7 +50,17 @@ a {
 }
 
 /************* header landpage *************/
+.stick-header {
+  background: #e6f0ff;
+  padding-bottom: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-top: 8px;
+  /* background-color: orange; */
+}
 .header {
+  display: flex;
   background: #e6f0ff;
   position: relative;
   height: 100vh;
@@ -68,7 +78,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding-top: 36px;
 }
 
 .navbar ul {
