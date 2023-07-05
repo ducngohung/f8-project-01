@@ -63,7 +63,7 @@ a {
   display: flex;
   background: #e6f0ff;
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 96px);
 }
 
 /* content navigation */
